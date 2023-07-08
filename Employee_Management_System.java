@@ -19,7 +19,7 @@ public static void Create(){
     System.out.println("\n*Performing create operation*");
 	try {
             // Specify the file path and name
-            String filePath = "D:/javaa/EMS.txt";
+            String filePath = "EMS.txt";
             
             // Create a File object
             File file = new File(filePath);
@@ -44,7 +44,7 @@ public static void Add() {
     System.out.println("\n*Performing add operation*");
     try {
         // Specify the file path
-        String filePath = "D:/javaa/EMS.txt";
+        String filePath = "EMS.txt";
 
         // Create a FileReader object to read the existing file
         FileReader fileReader = new FileReader(filePath);
@@ -123,7 +123,7 @@ public static void Read(){
     System.out.println("\n*Performing read operation*\n");
 	try {
             // Specify the file path
-            String filePath = "D:/javaa/EMS.txt";
+            String filePath = "EMS.txt";
 
             // Create a FileReader object to read the file
             FileReader fileReader = new FileReader(filePath);
@@ -148,10 +148,10 @@ public static void Update(){
     System.out.println("\n*Performing update operation*");
 	try {
             // Specify the file path
-            String filePath = "D:/javaa/EMS.txt";
+            String filePath = "EMS.txt";
 
             // Create a temporary file to store updated records
-            String tempFilePath = "D:/javaa/copyEMS.txt";
+            String tempFilePath = "copyEMS.txt";
             File tempFile = new File(tempFilePath);
             tempFile.createNewFile();
 
@@ -230,10 +230,10 @@ public static void Remove(){
 	
 		try {
             // Specify the file path
-            String filePath = "D:/javaa/EMS.txt";
+            String filePath = "EMS.txt";
 
             // Create a temporary file to store records without the removed fields
-            String tempFilePath = "D:/javaa/copyEMS.txt";
+            String tempFilePath = "copyEMS.txt";
             File tempFile = new File(tempFilePath);
             tempFile.createNewFile();
 
@@ -309,7 +309,7 @@ public static void Search(){
     System.out.println("\n*Performing search operation*");
 	try {
             // Specify the file path
-            String filePath = "D:/javaa/EMS.txt";
+            String filePath = "EMS.txt";
 
             // Create a FileReader object to read the file
             FileReader fileReader = new FileReader(filePath);
@@ -353,7 +353,7 @@ public static void Clear(){
     System.out.println("\n*Performing clear operation*");
 	try {
             // Specify the file path
-            String filePath = "D:/javaa/EMS.txt";
+            String filePath = "EMS.txt";
 
             // Create a FileWriter object
             FileWriter fileWriter = new FileWriter(filePath);
