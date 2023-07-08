@@ -23,6 +23,7 @@ Remove Employee: Users can remove an employee from the system by providing the e
 Search Employee: Users can search for an employee by name. The system will display a list of employees whose names match the search query.
 
 Clear Employee Data: Users can clear all employee data from the system. The system will prompt for confirmation before clearing the data.
+
 **Usage**
 
 Upon running the application, you will be presented with a menu of options. Use the corresponding numbers to select an action:
